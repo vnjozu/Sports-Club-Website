@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Lemuel Madula, Semester 1 2024 -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>Bayside Boomers Website</title>
+    <!-- TemplateEndEditable -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bayside Boomers website">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <!-- TemplateBeginEditable name="head" -->
+    <style>
+
+    </style>
+    <!-- TemplateEndEditable -->
+</head>
+
+<body>
+    <header>
+        <!-- banner area -->
+        <nav>
+            <div id="logo">
+                <a href="../index.html">
+                    <img src="../images/bayside-boomers-logo.png" alt="Bayside Boomers logo">
+                </a>
+            </div>
+            <ul>
+                <li><a href="../about.html">ABOUT</a></li>
+                <li><a href="../teams.html">TEAMS</a></li>
+                <li><a href="#">FIXTURES</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="../join.html">JOIN US</a></li>
+                <li><a href="../contact.html">CONTACT</a></li>
+            </ul>
+            <div id="social-media">
+                <a href="https://www.facebook.com/" target="_blank"><img src="../images/facebook-logo.png" alt="facebook logo" height="40"
+                        width="40"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="../images/instagram-logo.png" alt="instagram logo" height="40"
+                        width="40"></a>
+            </div>
+            <button id="join-up-now" onclick="document.location='join.html'">JOIN UP NOW</button>
+        </nav>
+    </header>
+
+    <div id="page-container">
+        <!-- TemplateBeginEditable name="hero-image" -->
+
+
+        <!-- TemplateEndEditable -->
+        <div id="wrapper">
+
+            <!-- TemplateBeginEditable name="no-flex-content" -->
+        
+
+            <!-- TemplateEndEditable -->
+            <div class="flex-container">
+                <div class="flex-item-main">
+                    <main>
+                        <!-- TemplateBeginEditable name="main-content" -->
+
+
+                        <!-- TemplateEndEditable -->
+                    </main>
+                </div>
+                <div class="flex-item-aside">
+                    <aside>
+                        <!-- TemplateBeginEditable name="aside-content" -->
+
+
+                        <!-- TemplateEndEditable -->
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h6> Copyright &copy; 2024 | Bayside Boomers Basketball Club. All rights reserved.</h6>
+    </footer>
+</body>
+
+</html>

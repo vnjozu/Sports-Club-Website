@@ -1,0 +1,642 @@
+@charset "utf-8";
+
+/* CSS for Bayside Boomers website */
+
+html {
+    box-sizing: border-box;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    overscroll-behavior: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.sentence-links {
+    color: #ffbf88;
+    font-weight: 400;
+}
+
+.sentence-links:hover{
+    text-decoration: underline;
+}
+
+/* Navigation styling */
+
+nav{
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 38px;
+    padding-right: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+#logo{
+    text-align: left;
+    float: left;
+ }
+
+nav ul{
+    list-style-type: none;
+    padding-left: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1 0 67%;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    min-width: 570px;
+
+}
+
+nav li{
+    display: inline-flex;
+    padding-top: 10px;
+    padding-right: 15px;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+}
+
+nav a:link{
+    text-decoration: none;
+    color:#5D2E8C
+}
+
+nav a:visited{
+    color: #5D2E8C;
+}
+
+nav a:hover{
+    color: #f3522E;
+    cursor: pointer;
+}
+
+nav a:active{
+    color: #f3522E;
+}
+
+
+nav #social-media{
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+nav #social-media img{
+    margin: 0 0 0 38.4px;
+}
+
+nav #join-up-now{
+    background-color: #270d41;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 300px;
+    margin: 0 0 0 38.4px;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    min-width: 142px;
+    min-height: 50px;
+}
+
+#join-up-now:hover{
+    background-color: #f3522E;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* end navigation */
+
+body {
+    margin: 0;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1em;
+    background-color: #371a55;
+    /* max-width: 1920px; */
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+    min-width: 800px;
+    padding: 5px;
+	height: auto;
+    padding-bottom: 102.277px;
+    position: relative;
+}
+
+main, aside{
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+#hero-image{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/playing-basketball.jpg);
+    height: 566px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    clear: both;
+}
+
+#hero-text{
+    font-family: inherit;
+    font-size: 47px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    width: 35%;
+    padding: 20px 25px;
+    background-color:  #ffad65;
+    color: #662E91;
+    border-width: 5px;
+    position: absolute;
+    top: 90px;
+    right: 100px;
+	display: block
+}
+
+#mission-section{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #633e88;
+    margin-top: 25px;
+}
+
+#history-section{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #633e88;
+    margin-top: 50px;
+}
+
+.read-more{
+    background-color:#f3522E;
+    color: #0d0d0d;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 300px;
+    margin: 0 0 20px 1100px;
+    font-family: "Rubik";
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 150px;
+    min-height: 50px;
+    min-width: 150px;
+}
+
+.read-more:hover{
+    background-color: #270d41;
+    color: #fff;
+}
+
+h1{
+    font-family: inherit;
+    text-align: center;
+    font-weight: 500;
+    color:  #ffad65;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+h2{
+    font-family: inherit;
+    text-align: center;
+    font-weight: 500;
+    color:  #ffad65;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+h3{
+    font-family: inherit;
+    text-align: center;
+    font-weight: 400;
+    color:  #ffad65;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+h4{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h6{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+p{
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+#welcome{
+    background-color: #633e88;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#welcome h1{
+    padding-top: 20px;
+}
+
+#committee{
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* committee table styling */
+
+#committee h1{
+    padding: 20px;
+}
+
+table {
+    width:100%;
+	border:1px solid;
+	border-collapse:collapse;
+	padding:5px;
+    text-align: center;
+    font-family: inherit;
+    color: #ffffff;
+    table-layout: fixed;
+}
+
+th {
+    border:1px solid;
+    padding:5px;
+    background:#432362;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#committee td, #coaches td, #members td {
+    border:1px solid;
+    padding:5px;
+    background-color: #ffffff;
+    color: #0d0d0d;
+}
+
+.training{
+    text-align: left;
+    
+}
+
+.training td{
+    border: 1px solid #341751;
+    padding-left: 5px;
+}
+
+.training td:nth-child(1){
+    font-weight: 500;
+}
+
+.training tr:nth-child(odd){
+    background-color: #dbc0f5;
+    color: #0d0d0d;
+}
+
+.training tr:nth-child(even){
+    background-color: #ffffff;
+    color: #0d0d0d;
+}
+
+li{
+    padding-bottom: 5px;
+}
+
+#coaches{
+    padding-top: 20px;
+}
+
+#members{
+    padding-top: 40px;
+}
+
+#member-head{
+    border:1px solid;
+    padding:5px;
+    background:#432362;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/* table end */
+
+#documents{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: inherit;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #633e88;
+}
+
+#documents h3{
+    text-align: left;
+}
+
+#documents p{
+    text-align: left;
+    padding: 0;
+}
+
+#documents a{
+    text-decoration: none;
+    color:  #ffbf88;
+}
+
+#documents a:hover{
+    text-decoration: underline;
+}
+
+#page-container{
+    position: relative;
+    min-height: auto;
+    margin-top: 113.683px;
+}
+
+/* two column layout for main and aside */
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 5px;
+}
+
+.flex-item-main{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0%;
+    width: 50%;
+    padding-top: 25px;
+}
+.section1, .section2, .section1, .section2{
+    background-color: #633e88;
+    text-align: left;
+    position: relative;
+    padding: 20px 20px;
+    clear: both;
+    display: block;
+}
+
+.section2 h2, .section1 h2{
+    text-align: left;
+    color: #ffad65;
+    margin-top: 10px;
+}
+
+.section1 h3{
+    text-align: left;
+    color: #ffad65;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.section1 p, .section2 p{
+    color: #ffffff;
+    text-align: left;
+    position: relative;
+    padding: 0;
+    margin: 5px;
+}
+
+.section1 ul{
+    color: #ffffff;
+    text-align: left;
+}
+
+.section2{
+    margin-top: 25px;
+}
+
+.flex-item-aside{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0%;
+    width: 50%;
+    padding-top: 25px;
+}
+
+/* end column */
+
+/* buttons */
+.button {
+    background-color: #f3522E;
+    color: #0d0d0d;
+    padding: 12px 20px;
+    border-radius: 300px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 1em;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover{
+    background-color: #270d41;
+    color: #fff;
+}
+
+.register{
+    padding-top: 20px;
+    text-align: right;
+    display: block;
+    /* overflow: auto; */
+}
+/* end buttons */
+
+/* form styling */
+fieldset{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    border: 1px solid #dbc0f5;
+}
+
+input[type=text], select, textarea{
+    padding: 10px;
+    border: 1px solid #ffffff;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #0d0d0d;
+}
+
+select{
+    cursor: pointer;
+}
+
+.form-heading h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.flex-form-rows{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 20px;
+}
+
+.flex-form-rows label{
+    color:#fff;
+    font-size: 18px;
+}
+
+.flex-form-right{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0%;
+    width: 50%;
+    padding-top: 25px;
+}
+
+.flex-form-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0%;
+    width: 50%;
+    padding-top: 25px;
+}
+
+.submit{
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+button{
+    text-align: center;
+    background-color: #f3522E;
+    color: #0d0d0d;
+    padding: 12px 20px;
+    border-radius: 300px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 1em;
+    width: auto;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #270d41;
+    color: #ffffff;
+}
+
+.disclaimer{
+    font-size: 15px;
+}
+/* end form styling */
+
+/* attribution styling */
+
+.attribution-location{
+    display: block;
+    text-align: right;
+}
+
+.attribution{
+    color: #fff;
+    font-size: x-small;
+    font-style: italic;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.attribution a:link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.attribution a:visited{
+    color: #ffffff;
+
+}
+
+.attribution a:hover{
+    cursor: pointer;
+    color: #ffad65;
+}
+
+/* attribution end */
+
+.maps {
+	position: relative;
+	padding-bottom: 75%;
+	height: 0;
+	overflow: hidden;
+}
+
+.maps iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* footer styling */
+footer {
+    background-color: #1d0931;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    font-family: inherit;
+}
